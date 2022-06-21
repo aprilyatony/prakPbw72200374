@@ -4,7 +4,7 @@
 
 ## TENTANG TUGAS AKHIR PRAKTIKUM PEMROGRAMAN WEB
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Laravel merupakan framework yang dapat membantu web developer dalam memaksimalkan penggunaan PHP dalam proses pengembangan website, dalam program laravel yang saya buat adapun beberapa fitur yang saya pakai untuk pengembangan web tersebut.
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
