@@ -7,12 +7,9 @@
 Laravel merupakan framework yang dapat membantu web developer dalam memaksimalkan penggunaan PHP dalam proses pengembangan website, dalam program laravel yang saya buat adapun beberapa fitur yang saya pakai untuk pengembangan web tersebut.
 
 ## Fitur yang saya gunakan sebagai berikut :
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Create, Read, Update, Delete pada tabel user.
+- Create, Read, Update, Delete pada tabel user mahasiswa.
+dimana kegunaan fitur tersebut adalah untuk membuat, membaca, mengubah dan melakukan penghapusan pada data yang diinginkan oleh pengguna (pengguna bebas melakukan manipulasi data)
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
