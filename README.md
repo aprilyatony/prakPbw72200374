@@ -9,9 +9,9 @@ Laravel merupakan framework yang dapat membantu web developer dalam memaksimalka
 ## Fitur yang saya gunakan sebagai berikut :
 - Create, Read, Update, Delete pada tabel user.
 - Create, Read, Update, Delete pada tabel user mahasiswa.
-dimana kegunaan fitur tersebut adalah untuk membuat, membaca, mengubah dan melakukan penghapusan pada data yang diinginkan oleh pengguna (pengguna bebas melakukan manipulasi data)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+
+dimana kegunaan fitur tersebut adalah untuk membuat, membaca, mengubah dan melakukan penghapusan pada data yang diinginkan oleh pengguna (pengguna bebas melakukan manipulasi data)
 
 ## Learning Laravel
 
