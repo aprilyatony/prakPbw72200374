@@ -2,7 +2,7 @@
 
 </p>
 
-## TENTANG TUGAS AKHIR PRAKTIKUM PEMROGRAMAN WEB
+## TENTANG TUGAS AKHIR PRAKTIKUM PEMROGRAMAN WEB (Aprilya Claudia Tony 72200374)
 
 Laravel merupakan framework yang dapat membantu web developer dalam memaksimalkan penggunaan PHP dalam proses pengembangan website, dalam program laravel yang saya buat adapun beberapa fitur yang saya pakai untuk pengembangan web tersebut.
 
@@ -13,9 +13,18 @@ Laravel merupakan framework yang dapat membantu web developer dalam memaksimalka
 
 dimana kegunaan fitur tersebut adalah untuk membuat, membaca, mengubah dan melakukan penghapusan pada data yang diinginkan oleh pengguna (pengguna bebas melakukan manipulasi data)
 
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Beberapa Langkah Yang Harus di Lakukan dalam pembuatan Project Laravel Adalah  :
+- Membuat basis data dengan perintah CREATE DATABASE "Nama Database"
+- Setelah basis data berhasil di buat selanjutnya melakukan konfigurasi koneksi pada .env
+- Setelah itu buatlah Terminal baru pada aplikasi Visual Studio Code (Terminal – New Terminal)
+- Langkah berikutnya adalah melakukan pengecekan koneksi
+- Selanjutnya kita perlu membuat permintaan eksekusi pada routes 
+- setelah itu kita harus membuat Migration dengan perintah (php artisan make:migration create_namaTable_table)
+- Setelah membuat Migration, kita harus memasukkan beberapa atribut kedalam table tersebut, selanjutnya adalah melakukan proses generate dengan menggunakan perintah migratation agar data tersebut dapat dijalankan, Jika proses migrasi berhasil dilakukan, maka Laravel akan secara otomatis menciptakan sebuah tabel baru yang sesuai dengan atribut yang ditentukan
+- Jika dalam proses migrasi ini terjadi kesalahan dalam melakukan konfigurasi, pemrogram dapat menghapus tabel pada basis data dengan menggunakan rollback migration 
+- Seeding dapat digunakan dengan membuat file seeding terlebih dahulu dengan menggunakan perintah artisan command (php artisan make:seeder NamatableSeeder), 
+Jika perintah tersebut dijalankan, sistem akan membuat file seeder secara otomatis pada direktori database/seeds. Pada file seeder terdapat metode run() yang digunakan untuk menyisipkan data berdasarkan pada atribut yang ada pada tabel.
+- Adapun persiapan untuk menggunakan faker pada seeding adalah dengan menambahkan header faker terlebih dahulu  (use Faker\Factory as Faker;
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
